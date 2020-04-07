@@ -18,6 +18,9 @@ function App() {
           <p>item two</p>
           <p>item three</p>
         </div>
+
+        <p>vertical line</p>
+        <div className="line"></div>
       </header>
     </div>
   );
