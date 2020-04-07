@@ -1,23 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>two item in a row</p>
+        <div className="two-item">
+          <p>item one</p>
+          <p>item two</p>
+        </div>
+        <p>three item in a row</p>
+        <div className="three-item">
+          <p>item one</p>
+          <p>item two</p>
+          <p>item three</p>
+        </div>
       </header>
     </div>
   );
