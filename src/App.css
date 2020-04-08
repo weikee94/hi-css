@@ -53,3 +53,19 @@
   border-left: 6px solid green;
   height: 500px;
 }
+
+.three-item-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1rem;
+}
+
+.three-item-grid div p:first-child {
+  height: 200px;
+  border: 1px solid black;
+}
+
+.three-item-grid div p {
+  height: 400px;
+  border: 2px solid blue;
+}

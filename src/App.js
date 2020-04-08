@@ -21,6 +21,22 @@ function App() {
 
         <p>vertical line</p>
         <div className="line"></div>
+
+        <p>grid box</p>
+        <div className="three-item-grid">
+          <div>
+            <p>box one</p>
+            <p>box two</p>
+          </div>
+          <div>
+            <p>box three</p>
+            <p>box four</p>
+          </div>
+          <div>
+            <p>box five</p>
+            <p>box six</p>
+          </div>
+        </div>
       </header>
     </div>
   );
