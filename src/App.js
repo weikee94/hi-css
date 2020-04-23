@@ -37,6 +37,13 @@ function App() {
             <p>box six</p>
           </div>
         </div>
+
+        <p>text on image</p>
+        <div className="imageWrapper">
+          <p id="hello">hello world</p>
+          <img src="/logo512.png" alt="logo512" />
+          <p id="copyright">copyright</p>
+        </div>
       </header>
     </div>
   );
