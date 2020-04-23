@@ -89,3 +89,15 @@
   right: 0;
   bottom: 20px;
 }
+
+.lrWrapper {
+  width: 10vw;
+}
+
+.lrWrapper #left {
+  text-align: right;
+}
+
+.lrWrapper #right {
+  text-align: left;
+}

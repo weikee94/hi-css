@@ -44,6 +44,12 @@ function App() {
           <img src="/logo512.png" alt="logo512" />
           <p id="copyright">copyright</p>
         </div>
+
+        <p>two image different position</p>
+        <div className="lrWrapper">
+          <p id="left">left</p>
+          <p id="right">right</p>
+        </div>
       </header>
     </div>
   );
