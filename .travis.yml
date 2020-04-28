@@ -7,7 +7,7 @@ node_js:
   - "node"
 
 script:
-  - echo "Deploying"
+  - npm run build
 
 # deploy script to firebase
 deploy:
