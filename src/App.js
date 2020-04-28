@@ -50,6 +50,7 @@ function App() {
           <p id="left">left</p>
           <p id="right">right</p>
         </div>
+        <p>Travis CI Init</p>
       </header>
     </div>
   );
