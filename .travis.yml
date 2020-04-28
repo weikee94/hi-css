@@ -11,6 +11,7 @@ script:
 
 # deploy script to firebase
 deploy:
+  # https://stackoverflow.com/questions/51781292/travis-with-firebase-hosting-and-create-react-app-cant-find-public-directory
   skip_cleanup: true
   provider: firebase
   token:
